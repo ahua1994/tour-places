@@ -1,0 +1,19 @@
+@import "../Variables/Variables.scss";
+
+.CardGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;  
+    gap: 2rem;
+}
+ 
+@media screen and (max-width: 1700px){
+    .CardGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .CardGrid {
+        grid-template-columns: 1fr;
+    }
+}

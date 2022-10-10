@@ -1,0 +1,40 @@
+@import "../Variables/Variables.scss";
+
+.Card {
+    width: 535px;
+    background-color: $darkColor;
+    border-radius: 15px;
+    overflow: hidden;
+    justify-self: center;
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.6);
+    overflow: hidden; 
+    h1 {
+        color: $bgColor;
+        text-align: left;
+        padding: 20px 0 0 40px;
+        font-size: 3rem;
+    }
+    img {
+        width: 500px;
+        height: 350px;
+        padding-bottom: 15px;
+        &:hover {
+            filter: grayscale(100%);
+        }
+    }
+    p {
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        font-family: "Courier New", Courier, monospace;
+        font-size: 1.2rem;
+        color: white;
+        margin-left: 20px;
+        width: 500px;  
+        position: absolute; 
+        display: none;
+    }
+    &:hover {
+        p {
+            display: block;  
+        }
+    }
+}
