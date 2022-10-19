@@ -5,7 +5,7 @@ function Card() {
     return data.map(({ id, title, image, desc }) => (
         <div className="Card" key={id}>
             <h1>{title}</h1>
-            <img src={image}></img>
+            <img src={image} alt={title}></img>
             <p>{desc}</p>
         </div>
     ));

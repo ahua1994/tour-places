@@ -31,10 +31,10 @@
         width: 500px;  
         position: absolute; 
         display: none;
+        transition: display 2s linear, translate 3s linear;
     }
-    &:hover {
-        p {
-            display: block;  
-        }
+    &:hover p{
+        display: block;
+        transform: translateY(-200px)
     }
 }

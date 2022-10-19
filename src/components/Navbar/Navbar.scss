@@ -5,6 +5,11 @@
     color: $navbarText;
     display: flex;
     justify-content: space-around;
+    &-item:hover{
+        background-color: white;
+        color: $darkColor;
+        font-weight: bold;
+    }
     a{
         padding: 1rem;
         font-size: 2rem;

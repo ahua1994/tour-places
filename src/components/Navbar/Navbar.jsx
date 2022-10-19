@@ -3,12 +3,24 @@ import "./Navbar.scss";
 function Navbar() {
     return (
         <div className="Navbar">
-            <a href="#aboutus">About Us</a>
-            <a href="#foryou">For You</a>
-            <a href="#services">Services</a>
-            <a href="#blog">Blog</a>
-            <a href="#vlog">Vlog</a>
-            <a href="#contact">Contact</a>
+            <a className="Navbar-item" href="#aboutus">
+                About Us
+            </a>
+            <a className="Navbar-item" href="#foryou">
+                For You
+            </a>
+            <a className="Navbar-item" href="#services">
+                Services
+            </a>
+            <a className="Navbar-item" href="#blog">
+                Blog
+            </a>
+            <a className="Navbar-item" href="#vlog">
+                Vlog
+            </a>
+            <a className="Navbar-item" href="#contact">
+                Contact
+            </a>
         </div>
     );
 }
